@@ -1,7 +1,74 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 img {
     width: 300px;
 }
 
 .store-front {
-    width: auto;
+    width: 500px;
+    margin: 100px 0 100px 100px;
+}
+
+.nav-bar, .website-intro, .menu-items, .testimonials, .sign-up, .footer {  
+    padding: 0 250px;
+}
+
+button {
+    padding: 8px 28px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 0;
+    color: white;
+    background-color: #3E8EDE;
+}
+
+/* Header Section */
+
+.header {
+    color: white;
+    margin: 0;
+    background-color: #444444;
+}
+
+/* Navigation bar */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.nav-title {
+    margin-right: auto;
+}
+
+.nav-bar {
+    background-color: #DA0037;
+
+}
+
+/* About us */
+
+.website-intro {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 44px;
 }

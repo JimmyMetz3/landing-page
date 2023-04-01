@@ -6,39 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Header with links in a flexbox -->
-    <div class="header">
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Papa Sean's Pizza</h3>
-          </a>
-        </li>
-        <li><a href="#">header link one</a></li>
-        <li><a href="#">header link two</a></li>
-        <li><a href="#">header link three</a></li>
-      </ul>
-    </div>
-    <!-- About us -->
-    <div class="website-intro">
-      <div class="summary">
-        <h1>Papa Sean's Homemade Pizza</h1>
-        <p>
-          Small town pizza shop. Some more filler text about the pizza place.
-          Click sign up for emails on deals and specials!
-        </p>
-        <button>Sign up</button>
+    <section class="header">
+      <div class="nav-bar">
+        <ul>
+          <li class="nav-title">
+            <a href="#">
+              <h3>Papa Sean's Pizza</h3>
+            </a>
+          </li>
+          <li><a href="#">header link one</a></li>
+          <li><a href="#">header link two</a></li>
+          <li><a href="#">header link three</a></li>
+        </ul>
       </div>
-      <div>
-        <img
-          class="store-front"
-          src="images/Papa_Seans_Front.jpg"
-          alt="A picture of the restaurant"
-        />
+      <!-- About us -->
+      <div class="website-intro">
+        <div class="summary">
+          <h1>Papa Sean's Homemade Pizza</h1>
+          <p>
+            Small town pizza shop. Some more filler text about the pizza place.
+            Click sign up for emails on deals and specials!
+          </p>
+          <button>Sign up</button>
+        </div>
+        <div>
+          <img
+            class="store-front"
+            src="images/Papa_Seans_Front.jpg"
+            alt="A picture of the restaurant"
+          />
+        </div>
       </div>
-    </div>
+    </section>
     <!-- Menu items -->
     <div class="menu-items">
       <div class="food-item">
@@ -72,6 +80,6 @@
       <button>Sign up</button>
     </div>
     <!-- Footer -->
-    <div>Copyright &copy; Jimmy Web Services 2023</div>
+    <div class="footer">Copyright &copy; Jimmy Web Services 2023</div>
   </body>
 </html>
